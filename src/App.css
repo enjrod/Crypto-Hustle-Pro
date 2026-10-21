@@ -1,0 +1,94 @@
+body {
+  background: black;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 10px 20px;
+
+  background: white;
+}
+
+.icons {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.coin-list {
+  list-style: none;
+  width: 100%;
+  max-width: 900px;
+  margin: 25px auto 75px;
+  padding: 0;
+}
+
+li.main-list { 
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+}
+
+.whole-page { 
+  box-sizing: border-box;
+  width: 75%;
+  margin-left: 25%;
+  padding: 50px;
+  text-align: center;
+  background: black;
+  color: white;
+
+}
+
+.side-nav {
+  box-sizing: border-box;
+  width: 25%;
+  position: fixed;
+  inset: 0 auto 0 0;
+  background-color: #232323;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.crypto-news {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  width: 100%;
+  gap: 40px;
+}
+
+.news-article {
+  margin: 0;
+  text-align: left;
+}
+
+.side-list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.news-article a {
+  display: block;
+  padding: 1.25rem 10px;
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
